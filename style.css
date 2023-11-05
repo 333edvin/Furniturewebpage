@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color:rgba(94, 94, 94, 0.281);
+    backdrop-filter: blur(5px);
+}
+.navbar .nav-item .nav-link ,.navbar .navbar-brand{
+    color: white;
+}
+
+.navbar .navbar-nav{
+    justify-content: space-between;
+    width: 70%;
+}
+
+.menu-line{
+    width: 1px;
+    height: 2px;
+    color: white;
+    background-color: rgb(255, 220, 180);
+    visibility: hidden;
+    transition:0.3s ease-in-out;
+  }
+  .nav-link:hover .menu-line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 220, 180);
+    color: white;
+    visibility: visible;
+  }
+  
+.search{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 60px;
+}
+.search::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+    font-size: 15px;
+    
+  }
+
+
+
+.banner{
+    background-size: contain;
+    width: 100%;
+    height: 650px;
+
+}
+
+.banner-text{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(5px);
+}
+
+.latest-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.latest-content{
+    position: absolute;
+    top: 10%;
+    width: 80%;
+
+    color: rgb(255, 255, 255);
+    background-color: rgba(48, 48, 48, 0.24);
+ 
+}
+.latestBig-content{
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(48, 48, 48, 0.24);
+ 
+}
+.latestBig-img{
+    height: 350px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.caption{
+    /* text-align: center; */
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.icon{
+    font-size: 40px; 
+    
+}
+.lbanner
+{
+    width: 100%;
+    height: 600px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 100px rgba(194, 194, 194, 0.5);
+}
+
+.head{
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+
+.footerimg{
+    height: 400px;
+    width: 100%;
+}
+
+.image-container {
+    background-size:auto;
+}
+
+.contact input,textarea::placeholder{
+    padding: 10px;
+   
+}
+
+
+@media screen and (max-width:600px) {
+    .banner-text{
+        position: absolute;
+        top: 10%;
+        left: 12%;
+        background-color: rgba(0, 0, 0, 0.288);
+        backdrop-filter: blur(5px);
+    }
+    .banner-content{
+        font-size: 26px;
+    }
+    .banner{
+        background-size: contain;
+        width: 100%;
+        height: 600px;
+    
+    }
+
+    .latestBig-img{
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+    
+    }
+    .navicon{
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+.navbar .navbar-nav{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:990px) {
+    .navbar .navbar-nav{
+        width: 100%;
+    }
+    .navicon{
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+        padding: 20px;
+    }
+}
+

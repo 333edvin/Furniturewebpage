@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture</title>
+  </head>
+  <!-- font awsome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <!-- bootstrap script -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- bootstrap  -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <!-- favicon  -->
+  <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top ">
+      <div class="container ">
+        <a class="navbar-brand " href="#">
+          <i class="fa-solid fa-couch fa-fade m-2"></i>
+          LuxoNest
+        </a>
+          <span class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+          </span>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto ">
+                  <li class="nav-item ">
+                      <a class="nav-link " href="#">Home 
+                      <div class="menu-line"></div></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#latest">Deals 
+                      <div class="menu-line"></div>
+                    </a>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About
+                        <div class="menu-line"></div>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#shop">Shop
+                        <div class="menu-line"></div>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact
+                        <div class="menu-line"></div>
+                      </a>
+                  </li>
+                  <li class="nav-item  d-flex align-items-center ">
+                    
+                    <input type="text" class="search  " placeholder="search">
+                    <i class="fa-solid fa-magnifying-glass m-2" style="color: #ffffff;"></i>
+                </li>
+                <div class=" align-items-center d-flex navicon">
+
+                  <li class="nav-item">
+                    <i class="fa-solid fa-cart-shopping mx-2" style="color: #ffffff;"></i>
+                </li>
+                <li class="nav-item">
+                  <i class="fa-regular fa-user mx-2" style="color: #ffffff;"></i>
+              </li>
+                </div>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <!-- Banner-->
+  <section>
+    <div class="">
+      <img src="./images/Banner1.jpg" class="banner " alt="banner">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 banner-text w-75 p-5 text-white">
+
+              <h1 class="banner-content">Make Your Home
+                <br>Modern Design.
+              </h1>
+      
+              <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit praesentium aliquid suscipit, quo cum sunt illum tempore soluta? At dignissimos eveniet esse? Nihil ex velit error adipisci mollitia asperiores illum.</p>
+             
+              <button class="btn bg-white">Explore  <i class="fa-solid fa-arrow-right fa-2xs mx-2" style=" transform: rotate(-40deg);"></i></button>
+            </div>
+          </div>
+      
+
+      
+    </div>
+  </section>
+
+  
+
+        
+    <!-- cards -->
+    
+
+<section id="latest" >
+  <div class="container p-4 bg-light my-5">
+
+    <div class="row">
+      <div class="col-lg-10 ">
+
+        <h3 class=" head">Latest Products</h3>
+        <p class="w-100 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit sapiente exercitationem libero mollitia natus recusandae corporis adipisci fugit rem vitae iure illo quaerat,</p>
+      </div>
+      <div class="col-lg-2 text-center ">
+        <button class="btn text-white  my-4" style="background-color: black;">View All</button>
+
+      </div>
+    </div>
+
+    <div class="row  align-items-center">
+      
+      <div class="col-lg-6 my-4 ">
+        <img src="./images/latest1.jpg" alt="" class="img-fluid latest-img ">
+        <div class="latest-content p-4 ">
+          <h5 class="">RIVIERA SOFA</h5>
+          <p class="w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="btn bg-white">EXPLORE</button>
+        </div>
+      </div>
+      <div class="col-lg-6 my-4">
+        <img src="./images/latest2.jpg" alt="" class="img-fluid latest-img">
+        <div class="latest-content p-4">
+          <h5 class="">NEVADA SOFA</h5>
+          <p class="w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="btn bg-white">EXPLORE</button>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <img src="./images/latest3.jpg" alt="" class="img-fluid latestBig-img">
+        <div class="latestBig-content p-5">
+          <h5 class="">MADRID SOFA</h5>
+          <p class="w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button class="btn bg-white">EXPLORE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</section>
+    
+
+
+    
+    
+    
+    
+    <!-- Hand picked-->
+    <section id="shop">
+    <div class="container bg-light p-4 rounded my-5">
+      <div class="row">
+        <div class="col-lg-10 ">
+          <h3 class=" head">HandPicked</h3>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. In velit sapiente exercitationem libero mollitia natus recusandae corporis adipisci fugit rem vitae iure illo quaerat,</p>
+        </div>
+        <div class="col-lg-2 text-center">
+          <button class="btn text-white  my-4" style="background-color: black;">View All</button>
+
+        </div>
+      </div>
+      <div class="row p-2">
+        <div class="col-lg-4">
+        <div class="card my-2" >
+          <img
+            src="./images/handpick1.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">SOFAS</h5>
+           
+            <p>$ 199</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card my-2" >
+          <img
+          src="./images/handpick2.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">RECLINERS</h5>
+            
+            <p>$ 199</p>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card my-2" >
+          <img
+          src="./images/handpick3.jpg"
+          class="card-img-top"
+          alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title"> DINING</h5>
+            <p>$ 199</p>
+
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+   <!--second row  -->
+    <div class="row p-2">
+      <div class="col-lg-4">
+      <div class="card my-2" >
+        <img
+          src="./images/hand1.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">ACCENT CHAI</h5>
+         
+          <p>$ 199</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="card my-2" >
+        <img
+        src="./images/hand2.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">CUDDLE SOFA</h5>
+          
+          <p>$ 199</p>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card my-2" >
+        <img
+        src="./images/hand3.jpg"
+        class="card-img-top"
+        alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">BED BENCH</h5>
+          <p>$ 199</p>
+
+
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+  </div>
+</section>
+
+<section id="about" class="" itemid="about">
+  <div class="container">
+      <div class="row p-3">
+          <div class="col-md-6">
+              <h2 class="text-uppercase">About Our  Store</h2>
+              <p class="text-justify">
+                  Welcome to Furniture Store, your one-stop destination for high-quality, stylish furniture.
+                  Since our inception in [year], we have been committed to providing our customers with
+                  the finest furniture pieces that blend functionality, aesthetics, and affordability.
+              </p>
+              <p class="text-justify">
+                  At Furniture Store, we understand that your home is a reflection of your personal style.
+                  That's why we offer a wide range of furniture collections to suit every taste and budget.
+                  Whether you're furnishing a cozy apartment or a spacious home, our experienced team is
+                  here to assist you in finding the perfect pieces that match your vision.
+              </p>
+          </div>
+          <div class="col-md-6">
+              <!-- Insert an image of your store or products here -->
+              <img src="./images/about.jpg" alt="Our Furniture Store" class="img-fluid">
+          </div>
+      </div>
+  </div>
+</section>
+
+  
+
+
+  <section id="contact">
+    <div class="container">
+
+      <form action="" class="d-flex flex-column p-5 contact" >
+        <h3 class="head">Contact Us</h3>
+        <input type="text" placeholder="Name" class="my-2 border rounded">
+        <input type="email" placeholder="Email" class="my-2 border rounded">
+        <textarea name="" id="" cols="10" rows="3" placeholder="Message" class="my-2 border rounded" ></textarea>
+        <button class="btn btn-dark">Submit</button>
+      </form>
+    </div>
+  </section>
+  
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted pt-5">
+  <!-- Section: Social media -->
+ 
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section >
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4 text-white">
+            <i class="fas fa-gem me-3"></i> LuxoNest
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 text-white">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">SOFAS</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">RECLINERS</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">DINING</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">CUDDLE SOFA</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4 text-white">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> KERALA , INDIA</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            example@gamil.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 91 00 00 00 00 00</p>
+          <p><i class="fas fa-print me-3"></i> + 91 00 00 00 00 00</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">edvinjohnson333@gmail.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+   
+  </body>
+</html>
