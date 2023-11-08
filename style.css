@@ -79,6 +79,10 @@ nav{
     background-color: rgba(48, 48, 48, 0.24);
  
 }
+.latest-content:hover{
+    background-color: rgba(32, 32, 32, 0.418);
+
+}
 .latestBig-content{
     position: absolute;
     top: 10%;
@@ -87,12 +91,17 @@ nav{
     background-color: rgba(48, 48, 48, 0.24);
  
 }
+.latestBig-content:hover{
+    background-color: rgba(32, 32, 32, 0.418);
+
+}
 .latestBig-img{
     height: 350px;
     width: 100%;
     border-radius: 5px;
 
 }
+
 
 .caption{
     /* text-align: center; */
@@ -118,8 +127,18 @@ nav{
     font-family:'Times New Roman', Times, serif;
 }
 
+.card:hover span{
+    color: green;
 
-
+}
+.btnn{
+    background-color: black;
+}
+.btnn:hover{
+    background-color: black;
+    transform: scale(1.2);
+    transition: 0.2s ease-in;
+}
 
 .footerimg{
     height: 400px;
